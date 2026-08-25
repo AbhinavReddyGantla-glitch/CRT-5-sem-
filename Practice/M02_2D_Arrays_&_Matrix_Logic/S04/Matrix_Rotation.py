@@ -9,3 +9,12 @@ def rotate(matrix):
         matrix[i].reverse()
     
     return matrix
+
+#1886. Determine Whether Matrix Can Be Obtained By Rotation
+def findRotation(mat, target):
+    for _ in range(4):
+        if mat == target:
+            return True
+        mat = rotate(mat)
+    return False
+
