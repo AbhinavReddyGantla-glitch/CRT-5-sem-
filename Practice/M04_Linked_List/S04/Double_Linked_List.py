@@ -73,7 +73,7 @@ class Double_LL:
         temp.next.prev = None
         temp.next = None
         del del_node
-        
+    def delete_at_position(
         
 
     def traverse(self):
