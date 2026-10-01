@@ -10,7 +10,7 @@ class Circular_Queue:
         self.rear = -1
 
     def enqueue(self):
-        
+        pass
         
         
 
