@@ -21,3 +21,6 @@ def LCA(root,p,q):
         return root
     return l if l else r
 print(LCA(root,4,5))
+'''
+100 101 104 111 110
+'''
